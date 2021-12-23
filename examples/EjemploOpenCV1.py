@@ -4,7 +4,7 @@ import imutils
 
 
 personName = 'Carlos'
-dataPath ='/home/carlos/Programing/ProyectoIA/examples/VideosEjemplos'
+dataPath ='/home/carlos/Programing/ProyectoIA/examples/VideosEjemplos' 
 if not os.path.exists(dataPath):
     print('Carpeta Creada',dataPath)
     os.makedirs(dataPath)
