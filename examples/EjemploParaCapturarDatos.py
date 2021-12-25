@@ -10,8 +10,8 @@ if not os.path.exists(Datos):
     os.makedirs(Datos)
 
 capture = cv2.VideoCapture(0)
-x1 , y1 = 200, 100
-x2 , y2 = 480, 480
+x1 , y1 = 100, 80
+x2 , y2 = 300, 300
 
 count = 3
 
@@ -36,6 +36,8 @@ while True:
     cv2.imshow ('frame', frame)
     cv2.imshow ('objeto', objeto)
 
+    capture.release()
+    cv2.destroyAllWindows()
 
     
 
