@@ -13,7 +13,7 @@ capture = cv2.VideoCapture(0)
 x1 , y1 = 100, 80
 x2 , y2 = 300, 300
 
-count = 3
+count = 37
 
 while True:
     
@@ -36,8 +36,7 @@ while True:
     cv2.imshow ('frame', frame)
     cv2.imshow ('objeto', objeto)
 
-    capture.release()
-    cv2.destroyAllWindows()
+
 
     
 
