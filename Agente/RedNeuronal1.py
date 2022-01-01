@@ -58,14 +58,13 @@ for directorio in directories:
     indice=indice+1
  
 y = np.array(labels)
-X = np.array(images, dtype=np.uint8) #convierto de lista a numpy
+X = np.array(images) #convierto de lista a numpy
  
 # Find the unique numbers from the train labels
 classes = np.unique(y)
 nClasses = len(classes)
 print('Total number of outputs : ', nClasses)
 print('Output classes : ', classes)
-
 
 
 
