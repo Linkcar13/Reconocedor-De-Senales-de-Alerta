@@ -49,12 +49,12 @@ for cantidad in dircount:
     indice=indice+1
 print("Cantidad etiquetas creadas: ",len(labels))
  
-deportes=[]
+senales=[]
 indice=0
 for directorio in directories:
     name = directorio.split(os.sep)
     print(indice , name[len(name)-1])
-    deportes.append(name[len(name)-1])
+    senales.append(name[len(name)-1])
     indice=indice+1
  
 y = np.array(labels)
