@@ -1,2 +1,2 @@
 # Reconocedor-De-Senales-de-Alerta
-Agente entrando para reconocer señales de alerta.
+Agente entrenado para reconocer señales de alerta.
