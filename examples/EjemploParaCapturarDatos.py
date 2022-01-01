@@ -13,7 +13,7 @@ capture = cv2.VideoCapture(0)
 x1 , y1 = 100, 80
 x2 , y2 = 300, 300
 
-count = 37
+count = 0
 
 while True:
     
@@ -24,6 +24,7 @@ while True:
 #Es el objeto que se va a capturar
     objeto = imgAux[y1:y2,x1:x2]
     objeto = imutils.resize(objeto, width=40)
+
 
     k = cv2.waitKey(1)
     if k == 27:
