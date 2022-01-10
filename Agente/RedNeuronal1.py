@@ -1,4 +1,3 @@
-	
 import numpy as np
 import os
 import re
@@ -103,7 +102,10 @@ train_X,valid_X,train_label,valid_label = train_test_split(train_X, train_Y_one_
  
 print(train_X.shape,valid_X.shape,train_label.shape,valid_label.shape)
 
-## creación de la primera red neuronal 
+## creación de la primera red neuronal
+
+
+
 
 
 

@@ -10,8 +10,8 @@ if not os.path.exists(Datos):
     os.makedirs(Datos)
 
 capture = cv2.VideoCapture('/home/carlos/Imágenes/SeñalesenVideoParaCapturar/Señal6/1.mp4')
-x1 , y1 = 20, 80
-x2 , y2 = 300, 400
+x1 , y1 = 100, 70
+x2 , y2 = 300, 340
 
 count = 0
 
